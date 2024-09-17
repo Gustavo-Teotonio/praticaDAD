@@ -11,6 +11,9 @@
 }
 
 .divVermelha{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #FF0000;
   border-radius: 8px;
   padding: 17px 30ox;
@@ -19,6 +22,9 @@
 }
 
 .divVerde{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #008000;
   border-radius: 8px;
   padding: 17px 30ox;

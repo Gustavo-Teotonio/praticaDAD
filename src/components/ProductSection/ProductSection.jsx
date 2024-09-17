@@ -12,7 +12,7 @@ export default function ProductSection({isVertical, isPromo}){
                 <Produto foto = {Carne2} numItem = "2" precoItem = "000.000" kgItem = "1" isSaudavel={true}/>
                 <Produto foto = {Carne3} numItem = "3" precoItem = "000.000" kgItem = "1" isSaudavel={true}/>
         </S.DivProdutos>
-    }else if(isPromo == true){
+    }else if(isVertical == false && isPromo == true){
         <S.DivProdutosHorizontal>
                 <Produto foto = {Carne1} numItem = "1" precoItem = "000.000" kgItem = "1" isSaudavel={false}/>
                 <Produto foto = {Carne2} numItem = "2" precoItem = "000.000" kgItem = "1" isSaudavel={false}/>
