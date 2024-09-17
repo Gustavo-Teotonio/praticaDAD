@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif
+}
+
+.divona{ 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.divVermelha{
+  background-color: #FF0000;
+  border-radius: 8px;
+  padding: 17px 30ox;
+  width: 77px;
+  height: 35px;
+}
+
+.divVerde{
+  background-color: #008000;
+  border-radius: 8px;
+  padding: 17px 30ox;
+  width: 77px;
+  height: 35px;
+}
